@@ -1,0 +1,51 @@
+[
+    {
+        "name": "Tasty Bites",
+        "image_url": "https://example.com/tastybites.jpg",
+        "opening_time": "11:00 AM",
+        "closing_time": "10:00 PM",
+        "isOpened": true
+    },
+    {
+        "name": "Sizzle Grill",
+        "image_url": "https://example.com/sizzlegrill.jpg",
+        "opening_time": "12:00 PM",
+        "closing_time": "11:00 PM",
+        "isOpened": false
+    },
+    {
+        "name": "Cafe Aroma",
+        "image_url": "https://example.com/cafe-aroma.jpg",
+        "opening_time": "9:00 AM",
+        "closing_time": "9:00 PM",
+        "isOpened": true
+    },
+    {
+        "name": "Sizzle Grill",
+        "image_url": "https://example.com/sizzlegrill.jpg",
+        "opening_time": "12:00 PM",
+        "closing_time": "11:00 PM",
+        "isOpened": false
+    },
+    {
+        "name": "Cafe Aroma",
+        "image_url": "https://example.com/cafe-aroma.jpg",
+        "opening_time": "9:00 AM",
+        "closing_time": "9:00 PM",
+        "isOpened": true
+    },
+    {
+        "name": "Sizzle Grill",
+        "image_url": "https://example.com/sizzlegrill.jpg",
+        "opening_time": "12:00 PM",
+        "closing_time": "11:00 PM",
+        "isOpened": false
+    },
+    {
+        "name": "Cafe Aroma",
+        "image_url": "https://example.com/cafe-aroma.jpg",
+        "opening_time": "9:00 AM",
+        "closing_time": "9:00 PM",
+        "isOpened": true
+    }
+]

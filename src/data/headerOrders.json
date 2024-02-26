@@ -1,0 +1,23 @@
+[
+    {
+       "id":1,
+       "KEY":"RESTAURANT",
+       "LABEL":"Restaurant"
+    },
+    {
+        "id":3,
+        "KEY":"ORDERS",
+        "LABEL":"Orders"
+     },
+     {
+        "id":4,
+        "KEY":"VALUE",
+        "LABEL":"Value"
+     },
+      {
+        "id":5,
+        "KEY":"DELIVERY",
+        "LABEL":"Delivery"
+     }
+   
+]

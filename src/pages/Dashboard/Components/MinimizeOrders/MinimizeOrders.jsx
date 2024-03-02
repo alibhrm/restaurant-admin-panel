@@ -41,7 +41,7 @@ const MinimizeOrders = () => {
           {headerOrders.map((header, index) => (
             <th
               key={index}
-              className="px-2 align-middle py-3 text-xs capitalize whitespace-nowrap border-b-2 text-gray-500 font-bold text-left"
+              className="px-2 align-middle py-3 text-xs capitalize whitespace-nowrap border-b-2 text-gray-500 font-bold text-left cursor-pointer"
               onClick={() => handleHeaderClick(header)}
             >
               <span className="flex items-center space-x-1">

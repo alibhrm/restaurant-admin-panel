@@ -51,7 +51,7 @@ const AddNewProducts = ({ handleSubmit, closeModal, setSelectedImage }) => {
             onChange={(e) => setProductName(e.target.value)}
           />
         </label>
-        <label htmlFor="ingredients" className="py-3 w-2/3">
+        <label htmlFor="ingredients" className="py-3">
           Ingredients:
           <TagsInput
             value={tags}
@@ -59,7 +59,6 @@ const AddNewProducts = ({ handleSubmit, closeModal, setSelectedImage }) => {
             name="Ingredients"
             placeHolder="Enter Ingredients"
             id="ingredients"
-            className="w-10"
           />
         </label>
         <div className="flex items-center py-3 gap-3">
@@ -74,28 +73,27 @@ const AddNewProducts = ({ handleSubmit, closeModal, setSelectedImage }) => {
             suitable for vegans
           </label>
         </div>
-        <div className="flex gap-x-3">
+        <div className="flex w-full gap-x-2">
+          <label htmlFor="weight" className="py-3 flex flex-col">
+            weight in Grams
+            <input
+              type="number"
+              id="weight"
+              name="weight"
+              className="border w-48 h-16 focus:border-black"
+              value={productWeight}
+              onChange={(e) => setProductWeight(e.target.value)}
+            />
+          </label>
           <label htmlFor="calories" className="py-3 flex flex-col">
             calories:
             <input
               type="text"
               id="calories"
               name="calories"
-              className="border w-1/3 h-16 focus:border-black"
+              className="border w-48 h-16 focus:border-black"
               value={productCalories}
               onChange={(e) => setProductCalories(e.target.value)}
-            />
-          </label>
-
-          <label htmlFor="weight" className="py-3 flex flex-col">
-            weight:
-            <input
-              type="number"
-              id="weight"
-              name="weight"
-              className="border w-1/3 h-16 focus:border-black"
-              value={productWeight}
-              onChange={(e) => setProductWeight(e.target.value)}
             />
           </label>
         </div>
@@ -105,7 +103,7 @@ const AddNewProducts = ({ handleSubmit, closeModal, setSelectedImage }) => {
             type="text"
             id="price"
             name="price"
-            className="border w-1/3 h-16 focus:border-black"
+            className="border w-full h-16 focus:border-black"
             value={productPrice}
             onChange={(e) => setProductPrice(e.target.value)}
           />
@@ -122,8 +120,9 @@ const AddNewProducts = ({ handleSubmit, closeModal, setSelectedImage }) => {
           type="file"
           onChange={handleFileChange}
         />
-
-        <button type="submit">Add Product</button>
+        <div className="border-t-2 flex items-center justify-center py-10">
+          <button type="submit" className="text-white bg-gray-600 rounded px-20 py-2">Add Product</button>
+        </div>
       </form>
     </div>
   );
